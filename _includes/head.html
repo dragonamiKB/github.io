@@ -5,7 +5,14 @@
   {%- seo -%}
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
-  {%- if jekyll.environment == 'production' and site.google_analytics -%}
-    {%- include google-analytics.html -%}
-  {%- endif -%}
+
+  <link href="https://micro.blog/kristianramirez" rel="me" />
+
+  <!-- Open Graph Tags -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@dragonamiKB" />
+  <meta name="twitter:title" content="Dragonami" />
+  <meta name="twitter:description" content="by Kristian Ramirez" />
+  <meta name="twitter:image" content=""/>
+  <!-- End Open Graph Tags -->
 </head>
