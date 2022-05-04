@@ -28,8 +28,10 @@ future              : false
 unpublished         : false
 
 # Plugins
-whitelist           : []
-plugins             : []
+whitelist           : 
+   - jekyll-paginate
+plugins             : 
+   - jekyll-paginate
 
 # Conversion
 markdown            : kramdown
