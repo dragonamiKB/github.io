@@ -1,9 +1,19 @@
 <div class="metabox">
 
     <div class="post-type">
-        <a href={{ page.url | site.url }}>
-            <img class="post-img" src={{ "assets/images/post-type/linked-img.svg" | relative_url }}>
+
+        <a href={{ page.url }}>
+
+            <img src={{ "assets/images/post-type/linked-img.svg" | relative_url }}>
+
         </a>
+
     </div>
+
+    <h2 class="dateline">
+
+        {{ page.date }}
+
+    </h2>
 
 </div>

@@ -1,15 +1,30 @@
+.metabox {
+	display:flex;
+	flex-direction: column;
+}
+
 .post-type {
 	/* size and positioning */
 	display: flex;
 	flex-direction: row;
+
+	img {
+		/* size and positioning */
+		height: 56px;
+	}
+
+	img:hover {
+		/* other */
+		background-color: $color-grey;
+	}
 }
 
-.post-img {
-	/* size and positioning */
-	height: 56px;
-}
+.dateline {
+	/* alignment */
+	display: flex;
+	flex-direction: row;
+	margin: .1em 0 0 0;
 	
-.post-img:hover {
-	/* other */
-	background-color: $color-grey;
+	/* typography */
+	font-size: .8em;
 }
