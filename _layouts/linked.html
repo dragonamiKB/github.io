@@ -1,5 +1,18 @@
-<article class="linked">
+---
+layout: default
+---
+<div class="post">
 
-{%- include metabox/metabox-linked.html -%}
+    <article class="linked">
 
-</article>
+        <a href={{ page.external-url }} >
+            <h1 class="linked-title">{{ page.title }} <img class="linked-title" src={{ "assets/images/link-out.svg" | relative_url }}></h1>
+        </a>
+
+        {{ content }}
+
+    </article>
+    
+    {%- include metabox/metabox-linked.html -%}
+
+</div>
