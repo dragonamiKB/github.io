@@ -1,0 +1,15 @@
+.post-type {
+	/* size and positioning */
+	display: flex;
+	flex-direction: row;
+	
+	.post-img {
+		/* size and positioning */
+		height: 56px;
+	}
+	
+	.post-img:hover {
+		/* other */
+		background-color: $color-grey;
+	}
+}
