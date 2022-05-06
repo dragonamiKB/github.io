@@ -3,7 +3,6 @@
 	
 	/* size */
 	margin-right: 5em;
-	width: 30em;
 	/* typography */
 	text-align: right;
 }
@@ -18,7 +17,6 @@
 
 #navigation {
 	/* size */
-	padding: 0.5em 0 0.1em;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: right;
@@ -30,9 +28,6 @@
 		font-size: 1.5em;
 		font-weight: bold;
 		color: $color-secondary;
-		
-		/* alignment */
-		padding: .33em .75em .22em .75em;
 	}
 	
 	a:hover {
