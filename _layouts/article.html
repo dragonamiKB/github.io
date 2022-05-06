@@ -3,16 +3,17 @@ layout: default
 ---
 <div class="post">
 
-  <article class="post-content">
+    <article class="post-content">
 
-      <a href={{ page.url }} >
-          <h1 class="article-title">{{ page.title }}</h1>
-      </a>
+        <a href={{ page.url }} >
+            <h1 class="article-title">{{ page.title }}</h1>
+        </a>
+        <div class="narrative">
+            {{ content }}
+        </div>
 
-      {{ content }}
-
-  </article>
+    </article>
   
-  {%- include metabox/metabox-article.html -%}
+    {%- include metabox/metabox-article.html -%}
 
 </div>

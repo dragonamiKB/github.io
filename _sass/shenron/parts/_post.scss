@@ -1,10 +1,19 @@
 .post {
 	display:flex;
 	flex-direction: row;
+	width: 625px;
 }
 
 .post-content {
-	width: 425px;
+	width: $content-width;
+}
+
+.narrative {
+	margin-top: -.11em;
+}
+
+.linked-narrative {
+	margin-top: 1.9em;
 }
 
 /* titles */
@@ -12,10 +21,6 @@
 	/* typography */
 	font-family: $heading-font;
 	letter-spacing: .05em;
-	
-	/* size and positioning */
-	margin-bottom: .1em;
-	
 }
 
 .article-title {

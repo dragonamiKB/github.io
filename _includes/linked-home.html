@@ -5,8 +5,9 @@
         <a href={{ post.external-url }} >
             <h1 class="linked-title">{{ post.title }} <img class="linked-title" src={{ "assets/images/link-out.svg" | relative_url }}></h1>
         </a>
-
-        {{ post.content }}
+        <div class="linked-narrative">
+            {{ post.content }}
+        </div>
 
     </article>
     
