@@ -10,6 +10,8 @@ $heading-font:      "Roboto", sans-serif;
 $body-font:         "Roboto", sans-serif;
 
 // sizes
-$page-content-width:    625px;
+$site-width:            825px; /* sidebar + metabox + post + 100px margins (50 between sidbar and post, 50 between post and meta) */
+$sidebar-width:         160px;
+$page-content-width:    625px; /* metabox + post + 50px margin between the two */
+$metabox-width:         150px;
 $post-content-width:    425px;
-$site-width:            825px;
