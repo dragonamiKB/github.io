@@ -1,0 +1,38 @@
+---
+layout: page
+title: Archive
+permalink: /archive/
+---
+{% capture dateline %}{{ "September 1985" | date: "%B %y" }}{% endcapture %}
+
+<div class="page-content" style="width: 625px">
+    <ul class="archive-list">
+        {% for post in site.posts %}
+
+            {% if post.layout == "article" %}
+
+                {% capture post_dateline %}{{ post.date | date: "%B %Y" }}{% endcapture %}
+
+                {% if post_dateline == dateline %}
+                    <li>
+                        <a href={{ post.url }}><h1 class="archive-title">{{ post.title }}</h1></a>
+                    </li>
+
+                {% else %}
+                    <li>
+                        <h2 class="archive-dateline">{{ post_dateline }}</h2>
+                    </li>
+                    <li>
+                        <a href={{ post.url }}><h1 class="archive-title">{{ post.title }}</h1></a>
+                    </li>
+
+                    {% assign dateline = post_dateline %}
+
+                {% endif %}
+
+            {% endif %}
+
+        {% endfor %}
+    </ul>
+
+</div>
