@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-timezone: America/Los_Angeles
+timezone: america/los_angeles
 title: Dragonami
 email: kris@dragonami.com
 description: Random musings of a geeky 30-somthing.
