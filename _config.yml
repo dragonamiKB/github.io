@@ -21,7 +21,7 @@
 timezone: America/Los_Angeles
 title: Dragonami
 email: kris@dragonami.com
-description: >- # Random musings of a geeky 30-somthing.
+description: Random musings of a geeky 30-somthing.
 domain: "dragonami.com"       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://dragonami.com" # the base hostname & protocol for your site, e.g. http://example.com
