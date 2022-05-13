@@ -33,6 +33,7 @@ github_username:  dragonamiKB
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+livereload: TRUE
 
 # Exclude from processing.
 # The following items will not be processed, by default.
