@@ -1,6 +1,5 @@
 _site
 .DS_Store
-.ds_store
 gemfile.lock
 gemfile
 .sass-cache
