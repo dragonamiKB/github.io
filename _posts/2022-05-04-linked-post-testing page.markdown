@@ -1,5 +1,5 @@
 ---
-layout: linked
+layout: default
 title:  Linked Post!
 date:   2022-05-04 01:48:43
 categories: linked
