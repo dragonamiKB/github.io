@@ -1,0 +1,53 @@
+.article-title, .linked-title, .crosspost-title {
+    /* typography */
+    font-family:            $heading-font;
+    letter-spacing:         .05em;
+}
+
+.article-title {
+    /* typography */
+    font-size:              1.55em;
+    line-height:            1.5em;
+    font-weight:            bold;
+    
+    a {
+        /* typography */
+        color:              $blue;
+    } 
+}
+
+.linked-title, .crosspost-title {
+    /* typography */
+    line-height:            1.15em;
+    font-size:              1.10em;
+    font-weight:            500;
+    text-transform:         uppercase;
+    
+    a:hover {
+        text-decoration: none;
+        border-bottom: 1px solid $red;
+        
+        img {
+            filter: none;
+        }
+    }
+    
+    img {
+        /* size and positioning */
+        height:             .9em;
+        margin-left:        .5em;
+        padding-top:            1px;
+        vertical-align:     text-top;
+        filter: invert(25%) sepia(95%) saturate(1970%) hue-rotate(334deg) brightness(70%) contrast(98%);
+    }
+    
+}
+
+#post-list {
+    
+    hr {
+        margin:             2.5em 0 2.5em 0;
+        width:              100%;
+    }
+    
+}

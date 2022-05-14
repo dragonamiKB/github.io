@@ -1,12 +1,22 @@
 ---
 layout: default
 ---
-<div class="home">
-
+<div id="post-list">
         {%- for post in site.posts -%}
 
-                <h1>{{- post.title -}}</h1>
+                {%- if post.type == "linked" -%}
+        
+                        {% include posts/linked.html -%}
                 
-        {%- endfor -%}
+                        <hr />
+        
+                {%- else -%}
+                
+                        {%- include posts/article.html -%}
+                
+                        <hr />
+                
+                {%- endif -%}
 
+        {%- endfor -%}
 </div>
