@@ -1,13 +1,12 @@
 // color palette
-$color-primary:     #002663; // blue
-$color-secondary:   #b22234; // red
-$color-background:  #FFFFFF; // white
-$color-white:       #FFFFFF; // white
-$color-grey:        #C1CFDA; // grey
+$blue:      		  #002663; // blue
+$red:			      #b22234; // red
+$white:               #FFFFFF; // white
+$grey:                #C1CFDA; // grey
 
 // fonts
-$heading-font:      "Roboto", sans-serif;
-$body-font:         "Roboto", sans-serif;
+$heading-font:          "Roboto", sans-serif;
+$body-font:             "Roboto", sans-serif;
 
 // sizes
 $site-width:            825px; /* sidebar + metabox + post + 100px margins (50 between sidbar and post, 50 between post and meta) */

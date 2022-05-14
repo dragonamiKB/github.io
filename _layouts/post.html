@@ -1,0 +1,12 @@
+---
+layout: default
+---
+{%- if page.type == "linked" -%}
+
+        {% include posts/linked.html -%}
+
+{%- else -%}
+        
+        {%- include posts/article.html -%}
+        
+{%- endif -%}

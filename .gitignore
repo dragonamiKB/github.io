@@ -1,8 +1,10 @@
 _site
 .DS_Store
+.ds_store
 gemfile.lock
 gemfile
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
+.nova
 vendor

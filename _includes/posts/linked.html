@@ -1,0 +1,17 @@
+{%- if page.url == "/" -%}
+
+    <h1 class="linked-title"><a href={{- post.external-url -}}>{{- post.title -}} <img src={{- "assets/images/link-out.svg" | relative_url -}}></a></h1>
+    
+    {%- include metabox.html -%}
+
+    {{- post.content -}}
+
+{%- else -%}
+    
+    <h1 class="linked-title"><a href={{- page.external-url -}}>{{- page.title -}} <img src={{- "assets/images/link-out.svg" | relative_url -}}></a></h1>
+    
+    {%- include metabox.html -%}
+    
+    {{- content -}}
+    
+{%- endif -%}

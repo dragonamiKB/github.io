@@ -1,0 +1,17 @@
+{%- if page.url == "/" -%}
+
+    <h1 class="article-title"><a href={{- post.url -}}>{{- post.title -}}</a></h1>
+    
+    {%- include metabox.html -%}
+
+    {{- post.content -}}
+
+{%- else -%}
+    
+    <h1 class="article-title"><a href={{- page.url -}}>{{- page.title -}}</a></h1>
+    
+    {%- include metabox.html -%}
+    
+    {{- content -}}
+    
+{%- endif -%}

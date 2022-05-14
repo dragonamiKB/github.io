@@ -1,0 +1,26 @@
+.metabox {
+    font-size: .8em;
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+}
+
+.type-img {
+    /* size */
+    height: 1.5em;
+    
+    /* positioning */
+    vertical-align: text-bottom;
+    margin-right: 2px;
+}
+
+.dateline {
+    margin-right: 16px;
+}
+
+.permalink {
+    a:hover {
+        text-decoration:none;
+        border-bottom: 1px solid $red;
+    }
+}
