@@ -11,7 +11,7 @@ header {
     width: 512px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-height: 450px) {
     #header-img {
         width: 80%;
     }
