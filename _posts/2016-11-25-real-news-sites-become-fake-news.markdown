@@ -2,6 +2,7 @@
 title: When Legitimate Publications Become Fake News
 category: linked
 type: linked
+external-url: https://www.theverge.com/2016/11/25/13748226/cnn-accidentally-airs-porn-fake-news-boston
 ---
 
 Loren Grush at the Verge:
