@@ -2,6 +2,7 @@
 title: "Corker on Media: 'I Had Newfound Empathy' for Trump"
 type: linked
 category: linked
+external-url: https://www.politico.com/story/2017/12/21/bob-corker-media-trump-312212
 ---
 
 Louis Nelson writing for Politico:
