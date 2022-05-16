@@ -2,6 +2,7 @@
 title: Democrats Win Virginia Statehouse by a Single Vote
 type: linked
 category: linked
+external-url: https://www.vox.com/policy-and-politics/2017/12/19/16797572/virginia-house-delegates-drawing-bowl
 ---
 
 Andrew Prokop reporting for Vox:
