@@ -1,23 +1,9 @@
 <div class="metabox">
-    
-    {%- if page.url == "/" -%}
-    
-        <h2 class="dateline">{{ post.date | date: "%B %d, %Y" }}</h2>
-        
-        <div class="permalink">
-            <a href={{- post.url -}}><img class="type-img" src={{- "assets/images/permalink-img.svg" | relative_url -}}> Permalink</a>
-        </div>
-        
-    
-    {%- else -%}
-        
-        <h2 class="dateline">{{ page.date | date: "%B %d, %Y" }}</h2>
+ 
+    <h2 class="dateline">{{ page.date | date: "%B %d, %Y" }}</h2>
             
-        <div class="permalink">
-            <a href={{- page.url -}}><img class="type-img" src={{- "assets/images/permalink-img.svg" | relative_url -}}> Permalink</a>
-        </div>
+    <div class="permalink">
+        <a href={{- page.url -}}><img class="type-img" src={{- "assets/images/permalink-img.svg" | relative_url -}}> Permalink</a>
+    </div>
             
-    {%- endif -%}
-
-    
 </div>

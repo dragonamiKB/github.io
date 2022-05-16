@@ -58,8 +58,7 @@ He’ll use it as fuel to propel him to even greater heights.
 *This article was also posted at [Turf Show Times][8] while Kristian was a regular contributor to that publication.*
 
 [1]: https://www.turfshowtimes.com/2018/4/5/17201518/la-rams-2018-offseason-signings-trades-suh-cooks-hype-train
-[2]:
-https://www.turfshowtimes.com/2018/5/13/17336396/los-angeles-rams-2018-season-expectations
+[2]: https://www.turfshowtimes.com/2018/5/13/17336396/los-angeles-rams-2018-season-expectations
 [3]: https://www.turfshowtimes.com/2018/5/31/17413982/2018-nfl-mvp-race-rankings-los-angeles-rams-jared-goff-sleeper
 [4]: https://thuzio.com/
 [5]: https://www.elite11.com/2012elite11

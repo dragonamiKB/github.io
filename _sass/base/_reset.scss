@@ -96,7 +96,7 @@ video {
 
 html {
 	/* typography */
-	font-size: 			13px;
+	font-size: 			12px;
 	color: 				$blue;
 	font-style: 		normal;
 	font-family: 		$body-font;
@@ -190,8 +190,3 @@ table {
 	border-spacing: 0;
 }
 
-@media only screen and (min-width: $mobile-screen-size) {
-	#sitebox {
-		font-size: 12px;
-	}
-}

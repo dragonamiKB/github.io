@@ -27,10 +27,14 @@ twitter_username: dragonamiKB
 github_username:  dragonamiKB
 
 # Build settings
+paginate: 10
+paginate_path: "/page:num/"
+
 # theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
 
 # Post Settings
 timezone: america/los_angeles

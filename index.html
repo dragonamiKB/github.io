@@ -2,21 +2,58 @@
 layout: default
 ---
 <div id="post-list">
-        {%- for post in site.posts -%}
+    {%- for post in paginator.posts -%}
 
-                {%- if post.type == "linked" -%}
+        {%- if post.type == "linked" -%}
         
-                        {%- include posts/linked.html -%}
+            <h1 class="linked-title"><a href={{- post.external-url -}}>{{- post.title -}} <img src={{- "assets/images/link-out.svg" | relative_url -}}></a></h1>
+            
+            <div class="metabox">
+                <h2 class="dateline">{{ post.date | date: "%B %d, %Y" }}</h2>
+            
+                <div class="permalink">
+                    <a href={{- post.url -}}><img class="type-img" src={{- "assets/images/permalink-img.svg" | relative_url -}}> Permalink</a>
+                    </div>
+            </div>
+            
+            {{- post.content -}}
                 
-                        <hr />
+            <hr />
         
-                {%- else -%}
+        {%- else -%}
                 
-                        {%- include posts/article.html -%}
+            <h1 class="article-title"><a href={{- post.url -}}>{{- post.title -}}</a></h1>
+            
+            <div class="metabox">
+                <h2 class="dateline">{{ post.date | date: "%B %d, %Y" }}</h2>
+            
+                <div class="permalink">
+                    <a href={{- post.url -}}><img class="type-img" src={{- "assets/images/permalink-img.svg" | relative_url -}}> Permalink</a>
+                    </div>
+            </div>
+            
+            {{- post.content -}}
                 
-                        <hr />
+            <hr />
                 
-                {%- endif -%}
+        {%- endif -%}
 
-        {%- endfor -%}
+        
+    {%- endfor -%}
+</div>
+<!-- Pagination links -->
+<div class="pagination">
+  {%- if paginator.previous_page -%}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {%- else -%}
+    <span class="previous">Previous</span>
+  {%- endif -%}
+  <div>|</div>
+  {%- if paginator.next_page -%}
+    <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+  {%- else -%}
+    <span class="next ">Next</span>
+  {%- endif -%}
 </div>

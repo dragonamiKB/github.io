@@ -5,6 +5,25 @@
     
 }
 
+.pagination {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    
+    a {
+        display: block;
+    }
+}
+
+.previous {
+    margin-right: 5px;
+}
+.next {
+    margin-left: 5px;
+}
+
 @media only screen and (min-width: $mobile-screen-size) {
     #sitebox {
         width: 55%;
