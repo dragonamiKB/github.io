@@ -1,5 +1,5 @@
 ---
-title: Corker on Media: 'I Had Newfound Empathy' for Trump
+title: "Corker on Media: 'I Had Newfound Empathy' for Trump"
 type: linked
 category: linked
 ---
