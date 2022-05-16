@@ -20,7 +20,7 @@ All those words to say that in a league where it seems like all the headlines an
 
 Stay awesome, J Hekk.
 
-*This article was also posted at [Turf Show Times] while Kristian was a regular contributor to that publication.*
+*This article was also posted at [Turf Show Times][7] while Kristian was a regular contributor to that publication.*
 
 [1]: http://www.nfl.com/videos/nfl-game-highlights/0ap3000000738498/Johnny-Hekker-punts-78-yards
 [2]: http://www.nfl.com/player/johnnyhekker/2535663/careerstats
@@ -28,3 +28,4 @@ Stay awesome, J Hekk.
 [4]: https://www.businessinsider.com/browns-vikings-waive-kickers-extra-point-field-goals-misses-2018-9
 [5]: https://www.youtube.com/watch?v=DAPGvjT1KZU
 [6]:https://ftw.usatoday.com/2018/09/browns-kicker-zane-gonzalez-reaction-misses-field-goals-saints-extra-point-video-fans-nfl
+[7]: https://www.turfshowtimes.com/2018/9/22/17888454/los-angeles-rams-johnny-hekker-punter-no-respect
