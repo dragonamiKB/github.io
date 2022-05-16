@@ -1,5 +1,4 @@
 ---
-layout: post
 type: linked
 title:  Linked Post!
 date:   2022-05-04 01:48:43

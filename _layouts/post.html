@@ -1,12 +1,14 @@
 ---
 layout: default
 ---
-{%- if page.type == "linked" -%}
+<div id="post">
+        {%- if page.type == "linked" -%}
 
-        {% include posts/linked.html -%}
+                {% include posts/linked.html -%}
 
-{%- else -%}
+        {%- else -%}
         
-        {%- include posts/article.html -%}
+                {%- include posts/article.html -%}
         
-{%- endif -%}
+        {%- endif -%}
+</div>

@@ -2,7 +2,7 @@
     display: block;
     width: 95%;
     margin-top: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -11,7 +11,7 @@ header {
     width: 100%;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: $mobile-screen-size) {
     #header-img {
         width: 100%;
     }

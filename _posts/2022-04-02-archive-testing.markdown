@@ -1,5 +1,5 @@
 ---
-layout: post
+type: article
 title: This is a Test of the Archive System
 date: 2022-04-02 13:15:00
 ---
