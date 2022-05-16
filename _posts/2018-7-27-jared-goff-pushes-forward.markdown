@@ -1,5 +1,5 @@
 ---
-title: Through successes and setbacks, Los Angeles Rams QB Jared Goff pushes forward
+title: Through Successes and Setbacks, Los Angeles Rams QB Jared Goff Pushes Forward
 ---
 
 The [hype][1] and [expectations][2] surrounding the Los Angeles Rams and starting quarterback Jared Goff in 2018 is pretty amazing considering where things were just a year ago.
