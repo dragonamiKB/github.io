@@ -1,5 +1,5 @@
 ---
-Title: Congress' Encryption Working Group Agrees "Back Door" Laws are Harmful
+title: Congress' Encryption Working Group Agrees "Back Door" Laws are Harmful
 ---
 
 The House Judiciary Committee & House Energy and Commerce Committee Encryption Working Group released their [year-end report][1] on the ongoing encryption debate between tech companies and law enforcement. While the debate has been going on since encryption became a thing, it was intensified last year after the [FBI tried to force Apple][2] to create a backdoor to it’s iOS software on the phone of the San Bernardino shooter’s phone.
