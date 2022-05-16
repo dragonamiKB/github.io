@@ -1,5 +1,6 @@
 ---
 title: Starting Up Again
+date: 2022-05-16 12:02
 ---
 
 I'm back. After a long absence that roughly coincided with the pandemic, I've revived <dragonami.com>. It went offline for a while, but now it's back up and I have a more solid idea of what I'm doing with it. I know that this post probably isn't necessary as it's not like it was a favorite destination on the internet and everyone is interested in finding out what I've been up to the last few years and what's next. I do feel that I'd like to take the opportunity to layout, for myself, what my vision is for this website going forward and what my goals are.
