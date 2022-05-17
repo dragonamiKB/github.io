@@ -33,7 +33,7 @@ layout: default
             {{- post.content -}}
             
             {%- capture posts_left -%}{{- posts_left | minus: 1 -}}{%- endcapture -%}
-            {{- posts_left -}}
+  
             {%- if posts_left != "0" -%}
                <hr />
             {%- endif -%}
@@ -53,6 +53,7 @@ layout: default
             {{- post.content -}}
                 
             {%- capture posts_left -%}{{- posts_left | minus: 1 -}}{%- endcapture -%}
+            
             {%- if posts_left != "0" -%}
                <hr />
             {%- endif -%}
