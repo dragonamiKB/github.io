@@ -1,5 +1,7 @@
 .navbar {
-    
+    min-width: $min-widths;
+    display: flex;
+    flex-direction: row;
     background-color: $red;
     margin-bottom: 35px;
     padding-bottom: 1px;
@@ -23,13 +25,26 @@
             display: inline-block;
             height: 100%;
             padding: 3px .5em 0 .5em;
-            margin: 0 .5em 0 .5em;
+            margin: 0 .2em 0 .2em;
         }
         
         li:hover {
             background-color: $blue;
         }
     }
+    
+    img {
+        width: 1.5em;
+        padding: 1.5px 0 0 0 ;
+        margin: 0 .5em 0 .5em;
+    }
+    img:hover {
+        background-color: $blue;
+    }
+}
+
+.socials {
+    margin-left: auto;
 }
 
 @media only screen and (min-width: $mobile-screen-size) {
