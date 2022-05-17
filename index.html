@@ -2,8 +2,22 @@
 layout: default
 ---
 <div id="post-list">
+    
+    {%- if paginator.next_page -%}
+        
+        {%- assign posts_left = 10 -%}
+    
+    {%- else -%}
+    
+        {%- capture posts_left -%}{{- paginator.total_posts | modulo: 10 }}{%- endcapture -%}
+        
+        {%- if posts_left == "0" -%}
+            {%- assign posts_left = 10 -%}
+        {%- endif -%}
+    
+    {%- endif -%}
+        
     {%- for post in paginator.posts -%}
-
         {%- if post.type == "linked" -%}
         
             <h1 class="linked-title"><a href={{- post.external-url -}}>{{- post.title -}} <img src={{- "assets/images/link-out.svg" | relative_url -}}></a></h1>
@@ -17,8 +31,12 @@ layout: default
             </div>
             
             {{- post.content -}}
-                
-            <hr />
+            
+            {%- capture posts_left -%}{{- posts_left | minus: 1 -}}{%- endcapture -%}
+            {{- posts_left -}}
+            {%- if posts_left != "0" -%}
+               <hr />
+            {%- endif -%}
         
         {%- else -%}
                 
@@ -34,10 +52,12 @@ layout: default
             
             {{- post.content -}}
                 
-            <hr />
+            {%- capture posts_left -%}{{- posts_left | minus: 1 -}}{%- endcapture -%}
+            {%- if posts_left != "0" -%}
+               <hr />
+            {%- endif -%}
                 
         {%- endif -%}
-
         
     {%- endfor -%}
 </div>
