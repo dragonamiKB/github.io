@@ -1,5 +1,5 @@
 ---
-title: Los Angeles Rams at Carolina Panthers shows Rams resilient enough to work through issues on the road in 2019
+title: Los Angeles Rams at Carolina Panthers Shows Rams Resilient Enough to Work Through Issues on the Road in 2019
 ---
 
 That’s one in the can for the 2019 Los Angeles Rams.
