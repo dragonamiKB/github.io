@@ -11,17 +11,19 @@
     margin-left: auto;
     margin-right: auto;
     width: 107px;
-    
+
     a {
         display: block;
     }
 }
 
 .previous {
-    margin-right: 5px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .next {
-    margin-left: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (min-width: $mobile-screen-size) {
