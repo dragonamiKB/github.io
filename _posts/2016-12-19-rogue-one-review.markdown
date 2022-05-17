@@ -1,5 +1,5 @@
 ---
-title: "Rogue One: A \"Star Wars\" Story (Spoiler-Free Review)"
+title: "Rogue One: A Star Wars Story (Spoiler-Free Review)"
 ---
 
 Now I’ve seen *Rogue One* twice and feel like I’ve had enough time to let my general thoughts on this percolate around in my head. So let’s start with the TL;DR. *Rogue One* is amazing, and if you’re even a half-way dedicated *Star Wars* fan and you haven’t gone to see it, what are you doing?
