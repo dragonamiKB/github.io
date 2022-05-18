@@ -1,5 +1,6 @@
 <footer>
-
-    <p>© 2015-{{- "today" | date: "%Y" }} Kristian Ramirez</p>
+    {%- capture dates -%}© 2015-{{- "today" | date: "%Y" }}{%- endcapture -%}
+    
+    <p>{{- dates | append: " Kristian Ramirez" -}}</p>
     
 </footer>
