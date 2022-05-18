@@ -2,7 +2,7 @@
 Title: An Ode to Johhny Hekker
 ---
 
-I’d like to take a moment to reflect on of the most the under-appreciated players in the NFL: LA Rams Punter Johnny Hekker.
+I’d like to take a moment to reflect one of the most the under-appreciated players in the NFL: LA Rams Punter Johnny Hekker.
 
 I know what you’re thinking. “Kristian, what do you mean underappreciated? I appreciate the hell out of him!” And I believe you! You, dear reader, are a Rams fan. You and I have experienced a prolonged period where the best unit the Rams would field on Sundays was the Special Teams unit. A lot of that is thanks to the very capable abilities of Special Teams Coach John Fassel, but Hekker’s contributions are tremendous.
 
