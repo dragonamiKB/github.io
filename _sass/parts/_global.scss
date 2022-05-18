@@ -1,5 +1,6 @@
 #sitebox {
     min-width:      $min-widths;
+    max-width:      750px;
     width:          90%;
     margin-left:    auto;
     margin-right:   auto;
@@ -27,8 +28,3 @@
     margin-right: auto;
 }
 
-@media only screen and (min-width: $mobile-screen-size) {
-    #sitebox {
-        width: 60%;
-    }
-}
