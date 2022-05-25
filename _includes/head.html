@@ -2,11 +2,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    {%- seo -%}
     {%- feed_meta -%}
   
     <!-- Style Sheet Loading -->
         <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+    <!-- Style Sheet Loading -->
 
     <!-- Twitter Open Graph Tags -->
         <meta name="twitter:card" content="summary" />
@@ -15,4 +15,15 @@
         <meta name="twitter:description" content="by Kristian Ramirez" />
         <meta name="twitter:image" content=""/>
     <!-- End Open Graph Tags -->
+    
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FT7XZ7QVYB"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-FT7XZ7QVYB');
+        </script>
+    <!-- End Global site tag (gtag.js) - Google Analytics -->
 </head>
