@@ -26,7 +26,7 @@ The Mediate's Kipp Jones:
 Please, tell me more about the "Good Guys with Guns".
 
 [1]: https://www.mediaite.com/news/uvalde-newspaper-goes-viral-for-heartbreaking-solid-black-front-page-sums-up-everything-with-no-words/
-[2}: https://www.nytimes.com/live/2022/05/25/us/shooting-robb-elementary-uvalde
+[2]: https://www.nytimes.com/live/2022/05/25/us/shooting-robb-elementary-uvalde
 [3]: https://www.mediaite.com/crime/shooter-was-inside-school-for-one-hour-as-police-waited-outside-per-ny-times/
 [4]: https://www.mediaite.com/tv/texas-presser-goes-off-rails-as-frustrated-reporters-demand-answers-weve-been-given-a-lot-of-bad-information-so-why-dont-you-clear-all-of-this-up/
 [5]: https://www.mediaite.com/crime/go-in-there-exasperated-onlookers-urge-cops-to-rush-school-as-gunman-was-inside/
